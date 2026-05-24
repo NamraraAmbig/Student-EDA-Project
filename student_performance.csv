@@ -1,0 +1,501 @@
+student_id,gender,age,study_hours_per_day,attendance_percent,parental_education,internet_access,extra_curricular,sleep_hours,prev_year_score,school_type,tutoring,math_score,reading_score,writing_score,final_score
+1,Male,16,1.8,96.0,High School,No,Yes,6.0,,Public,No,14.1,22.0,23.3,19.8
+2,Female,17,6.6,88.2,High School,Yes,No,5.5,61.8,Private,Yes,46.3,47.2,42.3,45.3
+3,Female,15,5.1,73.8,High School,No,Yes,6.3,55.6,Public,No,40.9,38.5,39.6,39.7
+4,Female,15,3.8,73.8,High School,No,Yes,7.0,60.7,Public,Yes,16.1,24.4,26.7,22.4
+5,Male,15,5.6,74.1,Post Graduate,Yes,Yes,7.4,86.3,Private,No,43.7,40.8,50.6,45.0
+6,Male,15,8.6,100.0,Graduate,No,No,6.2,27.7,Public,No,57.4,51.1,54.8,54.4
+7,Male,18,4.8,82.6,Graduate,No,Yes,6.4,84.2,Private,No,28.0,27.2,23.7,26.3
+8,Female,15,4.9,83.2,High School,Yes,Yes,5.9,70.1,Public,No,57.6,55.2,49.8,54.2
+9,Female,18,3.7,90.4,Post Graduate,Yes,No,,46.9,Public,No,41.4,36.3,35.4,37.7
+10,Female,18,3.0,,Graduate,Yes,No,6.0,48.9,Private,No,47.8,42.4,46.7,45.6
+11,Male,15,6.0,74.9,No Education,Yes,Yes,7.4,90.1,Public,No,37.4,52.0,49.6,46.3
+12,Female,15,3.0,75.6,Graduate,Yes,Yes,5.0,50.8,Private,No,25.2,30.6,26.8,27.5
+13,Female,16,4.6,77.1,Graduate,Yes,Yes,6.4,47.7,Public,Yes,43.3,51.5,48.8,47.9
+14,Male,17,3.6,77.6,No Education,Yes,Yes,7.1,82.1,Private,No,31.5,40.4,38.4,36.8
+15,Male,15,5.4,86.7,Graduate,Yes,Yes,7.0,70.1,Public,No,49.3,51.1,45.1,48.5
+16,Male,16,5.1,78.6,Graduate,Yes,Yes,9.5,50.9,Public,No,63.8,51.2,51.8,55.6
+17,Male,16,,86.8,High School,No,Yes,7.1,68.2,Private,No,48.6,48.1,48.4,48.4
+18,Female,17,3.6,,Post Graduate,No,Yes,5.8,49.6,Private,No,45.3,33.8,37.6,38.9
+19,Male,18,4.0,78.9,Post Graduate,Yes,No,6.7,81.5,Private,Yes,42.5,48.8,44.1,45.1
+20,Male,15,2.7,54.0,Graduate,No,No,5.0,80.9,Private,No,16.4,28.2,20.8,21.8
+21,Female,17,3.7,89.0,Graduate,Yes,No,6.7,73.0,Private,Yes,27.9,36.8,41.0,35.2
+22,Male,15,5.2,82.2,Graduate,Yes,Yes,6.0,70.4,Public,No,42.0,46.5,46.9,45.1
+23,Male,16,5.9,90.0,Graduate,Yes,Yes,7.7,91.4,Public,Yes,49.5,55.4,56.8,53.9
+24,Male,16,2.8,43.2,Graduate,Yes,No,6.3,65.0,Public,Yes,28.5,23.5,17.5,23.2
+25,Male,18,6.1,100.0,No Education,No,Yes,6.7,47.3,Public,No,41.8,48.9,43.7,44.8
+26,Female,16,6.9,76.3,Graduate,Yes,Yes,6.2,71.7,Public,No,49.7,46.4,55.3,50.5
+27,Male,16,5.2,91.3,Post Graduate,Yes,No,8.5,96.3,Public,Yes,56.5,55.6,48.4,53.5
+28,Female,17,7.9,65.5,Graduate,Yes,No,6.5,49.8,Public,No,56.6,63.1,63.6,61.1
+29,Female,15,3.1,85.4,No Education,Yes,No,8.6,59.6,Private,Yes,32.8,39.1,38.6,36.8
+30,Male,15,2.3,65.4,Graduate,Yes,Yes,7.6,71.2,Public,Yes,40.5,44.0,38.3,40.9
+31,Female,17,1.3,70.5,High School,Yes,Yes,7.3,64.2,Public,No,25.1,21.2,18.6,21.6
+32,Male,18,7.2,100.0,High School,Yes,No,7.2,50.3,Public,No,62.4,61.5,61.8,61.9
+33,Male,15,5.7,75.7,High School,No,Yes,7.2,81.8,Private,Yes,51.9,51.8,47.1,50.3
+34,Female,16,4.4,80.6,High School,No,No,4.9,99.8,Private,Yes,43.8,49.3,45.8,46.3
+35,Female,15,5.0,88.4,Graduate,Yes,No,6.5,67.9,Private,Yes,40.9,42.5,36.3,39.9
+36,Female,16,2.5,,Graduate,No,No,7.6,51.4,Public,Yes,29.2,31.1,33.4,31.2
+37,Male,18,8.9,79.8,High School,Yes,Yes,6.8,41.8,Public,No,47.1,49.2,62.6,53.0
+38,Male,17,4.7,82.4,Post Graduate,Yes,Yes,5.4,68.9,Public,No,50.9,51.1,48.2,50.1
+39,Female,15,4.7,100.0,Post Graduate,Yes,No,6.7,81.6,Public,Yes,54.3,65.2,62.8,60.8
+40,Male,17,5.8,77.3,Post Graduate,Yes,No,8.5,72.1,Public,No,44.1,45.9,41.8,43.9
+41,Male,15,5.4,80.4,High School,No,No,8.0,65.0,Public,No,32.5,39.6,40.1,37.4
+42,Female,16,4.9,90.6,Graduate,Yes,Yes,6.7,56.2,Public,Yes,44.2,40.6,27.5,37.4
+43,Male,17,3.1,91.3,Post Graduate,Yes,Yes,7.8,48.6,Private,No,53.1,59.5,56.2,56.3
+44,Female,15,5.3,92.2,Graduate,Yes,No,6.4,77.5,Private,No,35.8,45.2,40.3,40.4
+45,Male,16,7.9,85.7,No Education,Yes,No,5.1,78.7,Public,Yes,54.8,55.4,55.6,55.3
+46,Female,17,6.9,64.3,No Education,No,No,5.9,41.8,Public,Yes,40.2,29.4,34.5,34.7
+47,Male,17,7.4,97.6,Graduate,Yes,Yes,8.4,88.8,Public,No,75.2,68.2,71.2,71.5
+48,Female,15,3.6,64.2,Post Graduate,Yes,No,6.5,73.6,Public,No,17.1,20.7,17.7,18.5
+49,Female,15,2.7,81.6,Graduate,Yes,No,,86.0,Private,Yes,27.5,39.0,38.6,35.0
+50,Male,15,,68.9,Graduate,Yes,No,6.5,44.9,Public,Yes,42.8,40.1,38.4,40.4
+51,Female,16,4.6,77.2,High School,Yes,Yes,8.7,44.5,Private,No,24.5,32.1,31.9,29.5
+52,Female,15,6.5,81.9,Graduate,Yes,Yes,8.4,62.8,Public,No,61.4,58.4,65.1,61.6
+53,Female,17,1.5,81.9,Post Graduate,Yes,No,9.0,72.5,Private,No,23.8,23.4,23.1,23.4
+54,Female,17,7.3,83.1,High School,Yes,Yes,6.6,91.9,Public,No,54.5,58.7,56.6,56.6
+55,Female,15,4.2,97.4,Graduate,No,Yes,7.1,75.6,Private,Yes,47.5,53.0,51.2,50.6
+56,Female,15,3.7,83.4,Post Graduate,No,No,5.3,,Public,No,44.2,49.2,45.5,46.3
+57,Male,18,2.7,75.1,High School,Yes,Yes,8.3,49.6,Private,No,19.2,23.9,26.3,23.1
+58,Male,17,1.5,89.6,Graduate,Yes,No,,83.5,Public,No,23.2,29.1,30.3,27.5
+59,Male,16,6.0,92.3,High School,Yes,Yes,7.0,50.5,Public,Yes,57.6,55.6,54.6,55.9
+60,Male,18,4.6,63.3,Graduate,No,No,5.7,89.4,Private,No,35.4,38.4,30.1,34.6
+61,Male,15,2.2,85.2,Graduate,Yes,No,6.2,60.7,Private,No,22.2,19.0,22.2,21.1
+62,Male,15,2.2,86.4,Graduate,Yes,Yes,6.0,88.9,Private,No,31.4,32.6,26.0,30.0
+63,Female,17,3.9,74.4,Graduate,Yes,Yes,6.2,75.2,Private,No,41.2,41.8,47.7,43.6
+64,Male,15,7.5,94.5,High School,Yes,Yes,6.3,62.9,Private,Yes,64.3,65.3,63.2,64.3
+65,Male,16,4.0,76.2,Post Graduate,Yes,Yes,6.3,57.2,Public,No,28.7,35.5,34.4,32.9
+66,Female,17,1.8,,Graduate,Yes,No,7.6,59.9,Public,No,20.3,24.8,16.4,20.5
+67,Male,15,4.1,75.9,High School,No,No,5.7,71.4,Public,No,34.0,41.9,37.0,37.6
+68,Female,17,4.0,78.2,Graduate,Yes,Yes,7.0,66.2,Private,No,31.4,25.8,26.5,27.9
+69,Male,15,0.5,,Graduate,Yes,Yes,8.0,56.1,Public,No,16.5,20.6,21.2,19.4
+70,Female,15,4.4,60.7,High School,Yes,Yes,6.3,62.5,Public,Yes,16.7,22.9,24.8,21.5
+71,Female,15,4.1,97.1,Post Graduate,Yes,No,6.1,66.2,Public,No,51.4,59.4,53.3,54.7
+72,Male,16,5.8,67.8,Post Graduate,Yes,Yes,6.6,33.1,Private,Yes,54.8,51.8,52.9,53.2
+73,Male,16,7.8,66.1,High School,Yes,No,8.0,71.9,Public,No,50.0,35.5,45.8,43.8
+74,Female,17,6.5,52.2,Post Graduate,Yes,No,7.0,50.3,Public,Yes,59.4,68.8,65.1,64.4
+75,Female,15,4.0,70.3,High School,No,No,6.3,47.7,Public,No,35.2,35.7,34.0,35.0
+76,Female,15,2.5,62.1,High School,Yes,Yes,7.3,39.7,Public,No,35.3,29.7,34.8,33.3
+77,Female,16,9.1,97.7,High School,Yes,No,,38.1,Public,No,48.6,48.8,50.5,49.3
+78,Male,15,4.6,90.1,Post Graduate,No,Yes,7.5,44.7,Private,No,41.9,51.2,42.5,45.2
+79,Male,16,,69.7,Graduate,Yes,Yes,7.2,54.4,Private,No,28.5,32.5,19.8,26.9
+80,Male,15,4.5,100.0,High School,Yes,No,6.5,94.3,Private,Yes,43.0,47.2,43.4,44.5
+81,Female,17,4.9,89.8,Graduate,Yes,No,6.0,57.1,Public,No,53.9,43.8,51.1,49.6
+82,Female,15,4.2,74.1,Graduate,Yes,Yes,5.9,67.7,Private,Yes,41.2,47.8,42.9,44.0
+83,Male,15,3.5,,No Education,No,Yes,7.3,71.0,Public,Yes,23.7,22.6,19.0,21.8
+84,Male,18,3.5,100.0,Post Graduate,Yes,Yes,8.0,67.0,Public,No,48.1,57.3,48.3,51.2
+85,Male,16,4.4,61.3,Post Graduate,No,Yes,,63.8,Private,Yes,39.4,42.2,47.7,43.1
+86,Male,15,,58.3,Graduate,No,Yes,7.3,47.1,Public,Yes,45.5,44.3,48.4,46.1
+87,Female,15,3.2,90.3,Post Graduate,Yes,Yes,4.7,86.8,Public,No,40.1,45.5,39.8,41.8
+88,Female,18,4.7,100.0,Graduate,No,Yes,,92.1,Private,No,48.2,35.4,30.9,38.2
+89,Female,18,4.0,94.6,Post Graduate,Yes,No,6.8,,Public,No,47.7,56.1,50.0,51.3
+90,Male,16,7.2,84.8,Graduate,No,No,5.9,49.6,Private,No,36.5,41.5,36.9,38.3
+91,Male,18,0.5,85.1,Graduate,Yes,No,5.9,60.8,Public,No,36.7,37.2,37.0,37.0
+92,Female,17,6.5,88.2,High School,Yes,Yes,,50.5,Private,No,33.7,42.3,48.5,41.5
+93,Female,18,6.7,87.1,Post Graduate,Yes,No,7.1,72.6,Public,Yes,54.9,57.4,51.4,54.6
+94,Female,17,0.8,81.4,Graduate,Yes,No,,54.1,Public,No,20.3,16.3,15.0,17.2
+95,Female,16,3.9,79.3,High School,Yes,No,4.6,97.5,Private,No,42.1,38.2,45.4,41.9
+96,Female,16,3.8,,No Education,Yes,No,4.7,82.9,Public,No,35.0,26.4,28.7,30.0
+97,Female,16,2.0,69.0,Graduate,Yes,No,6.2,68.2,Public,No,18.6,25.9,26.7,23.7
+98,Male,16,3.1,74.6,Graduate,Yes,Yes,,,Public,Yes,48.2,53.8,49.3,50.4
+99,Male,16,2.5,57.7,Graduate,Yes,Yes,4.1,81.6,Public,Yes,18.0,16.9,22.2,19.0
+100,Male,17,7.7,76.8,Post Graduate,Yes,No,6.3,56.5,Public,No,53.5,66.5,61.9,60.6
+101,Male,17,6.2,66.1,No Education,No,No,6.3,52.8,Public,No,41.2,51.6,37.1,43.3
+102,Female,16,6.8,64.8,Graduate,No,No,8.2,66.2,Private,No,22.4,30.9,30.3,27.9
+103,Male,18,5.8,80.2,High School,No,Yes,6.4,77.9,Public,Yes,40.9,42.4,42.5,41.9
+104,Female,15,2.5,94.7,Post Graduate,Yes,Yes,7.2,67.1,Public,No,26.5,44.8,27.2,32.8
+105,Female,16,3.6,89.0,Post Graduate,Yes,Yes,6.9,41.3,Public,No,52.8,46.8,52.4,50.7
+106,Male,18,5.4,59.2,Graduate,Yes,No,4.7,53.0,Public,Yes,43.4,36.5,34.3,38.1
+107,Male,15,2.3,66.1,Graduate,No,No,7.6,63.9,Private,Yes,23.9,33.1,30.8,29.3
+108,Female,16,5.8,89.3,High School,Yes,Yes,7.0,63.9,Public,No,43.0,59.7,48.4,50.4
+109,Male,16,,66.2,Graduate,Yes,Yes,7.3,94.6,Private,No,41.3,45.3,49.3,45.3
+110,Male,17,,75.3,Post Graduate,Yes,Yes,10.0,44.2,Public,No,43.0,42.9,47.4,44.4
+111,Male,15,5.8,84.6,Graduate,No,No,4.7,72.6,Private,Yes,44.5,41.6,48.3,44.8
+112,Male,15,5.3,66.4,High School,Yes,No,8.5,87.3,Public,No,28.6,31.5,30.6,30.2
+113,Female,18,3.9,79.3,Graduate,Yes,No,6.5,99.1,Private,No,48.1,47.1,43.2,46.1
+114,Female,17,6.6,62.0,Post Graduate,Yes,Yes,7.1,58.9,Public,Yes,49.4,49.8,56.4,51.9
+115,Female,17,2.6,70.8,High School,Yes,No,6.8,72.4,Public,No,25.2,19.7,20.8,21.9
+116,Female,17,5.6,81.8,High School,Yes,Yes,6.4,73.5,Public,Yes,39.2,45.0,47.0,43.7
+117,Female,17,5.6,58.9,Graduate,Yes,No,6.2,67.9,Public,Yes,34.7,43.6,39.2,39.2
+118,Male,15,3.9,83.3,Post Graduate,Yes,Yes,7.1,63.5,Private,No,36.8,35.8,41.4,38.0
+119,Female,15,5.1,77.8,High School,No,Yes,5.3,71.5,Public,Yes,19.3,20.8,24.8,21.6
+120,Female,16,2.2,84.6,High School,Yes,No,7.6,27.0,Public,Yes,33.8,26.5,31.3,30.5
+121,Female,16,,80.7,High School,No,No,6.4,75.2,Private,No,34.2,39.7,42.7,38.9
+122,Female,17,4.2,94.4,High School,No,Yes,5.7,66.9,Public,Yes,37.2,32.5,34.1,34.6
+123,Male,17,3.6,79.5,Graduate,Yes,No,6.3,,Private,Yes,49.5,50.0,45.0,48.2
+124,Male,17,,72.8,Graduate,Yes,Yes,8.1,,Private,Yes,51.3,52.0,59.0,54.1
+125,Male,16,3.2,79.5,Graduate,Yes,Yes,6.3,54.9,Public,No,23.5,41.6,22.9,29.3
+126,Male,18,2.0,84.5,Graduate,No,Yes,7.2,59.0,Private,No,21.4,27.6,23.9,24.3
+127,Female,18,1.7,78.6,High School,Yes,Yes,6.1,94.9,Public,No,31.5,26.8,21.7,26.7
+128,Female,16,5.6,78.5,Post Graduate,Yes,Yes,7.6,52.5,Public,No,58.3,59.0,59.1,58.8
+129,Male,16,,69.6,Graduate,Yes,Yes,7.5,56.7,Public,No,24.1,29.9,28.1,27.4
+130,Female,16,7.7,70.0,Post Graduate,Yes,Yes,8.6,62.8,Public,Yes,61.0,60.8,56.0,59.3
+131,Male,16,0.8,61.2,Graduate,Yes,No,6.6,77.6,Private,No,18.3,21.9,18.8,19.7
+132,Male,16,7.6,99.0,High School,Yes,Yes,7.5,68.1,Private,No,39.8,43.5,39.0,40.8
+133,Male,16,4.9,63.1,Graduate,No,No,6.9,45.6,Public,No,38.9,40.4,48.3,42.5
+134,Male,17,4.3,69.7,High School,Yes,Yes,8.1,57.0,Public,Yes,43.3,39.0,47.9,43.4
+135,Female,17,3.5,69.4,Graduate,Yes,No,6.1,55.9,Private,No,49.6,38.3,34.1,40.7
+136,Male,17,5.2,88.7,No Education,Yes,Yes,7.5,,Public,Yes,46.7,36.2,49.9,44.3
+137,Female,17,4.4,74.5,High School,Yes,Yes,6.6,71.4,Public,No,50.5,50.6,44.1,48.4
+138,Female,16,6.5,93.0,Post Graduate,Yes,Yes,6.7,71.3,Public,No,51.1,56.8,55.1,54.3
+139,Male,18,4.7,69.9,High School,No,Yes,6.9,38.4,Private,Yes,34.1,38.2,40.0,37.4
+140,Female,15,4.8,81.3,Post Graduate,Yes,Yes,7.1,81.0,Public,No,46.9,56.2,45.0,49.4
+141,Female,16,3.8,68.0,High School,Yes,No,6.7,68.8,Private,Yes,27.8,29.6,32.2,29.9
+142,Male,15,4.4,100.0,Graduate,Yes,No,7.0,85.8,Private,No,44.1,47.4,51.0,47.5
+143,Female,18,5.1,63.7,Graduate,Yes,No,8.4,71.7,Public,No,41.3,47.6,41.2,43.4
+144,Male,17,1.4,81.7,Graduate,Yes,No,7.8,81.5,Public,Yes,34.6,36.2,28.4,33.1
+145,Male,18,2.1,85.6,High School,Yes,Yes,7.7,72.0,Private,Yes,31.3,33.1,26.9,30.4
+146,Male,16,,83.0,High School,No,Yes,6.3,85.2,Public,No,39.1,36.8,31.0,35.6
+147,Female,17,4.8,75.8,No Education,Yes,Yes,5.9,,Private,Yes,59.1,61.5,58.7,59.8
+148,Female,16,4.2,76.4,High School,Yes,Yes,7.8,63.5,Private,Yes,42.9,46.4,41.7,43.7
+149,Male,17,4.5,78.5,Graduate,Yes,Yes,7.7,99.1,Private,Yes,46.1,52.9,48.6,49.2
+150,Male,15,5.1,76.2,Post Graduate,Yes,Yes,8.3,78.3,Private,No,41.9,42.3,54.4,46.2
+151,Female,15,3.5,,Post Graduate,Yes,Yes,6.2,73.6,Private,No,60.1,51.5,57.0,56.2
+152,Male,15,3.1,100.0,Graduate,Yes,Yes,6.6,45.9,Private,Yes,46.2,55.0,47.0,49.4
+153,Male,18,4.9,71.3,Graduate,Yes,No,5.2,45.7,Public,Yes,42.0,42.0,43.7,42.6
+154,Female,16,2.7,61.6,Graduate,Yes,No,6.4,69.4,Public,Yes,23.5,27.7,36.6,29.3
+155,Female,18,5.2,76.9,High School,Yes,Yes,7.8,67.2,Public,Yes,54.7,40.2,43.1,46.0
+156,Male,15,1.4,100.0,Post Graduate,Yes,No,6.3,55.8,Private,No,14.6,17.1,19.7,17.1
+157,Female,16,6.4,68.4,Graduate,Yes,No,7.4,67.1,Public,No,45.4,40.8,42.9,43.0
+158,Female,15,5.4,97.7,Graduate,Yes,Yes,6.6,88.8,Private,Yes,49.9,48.9,50.4,49.7
+159,Male,18,5.0,98.1,High School,No,Yes,7.1,75.4,Public,Yes,55.8,55.3,57.1,56.1
+160,Female,18,6.3,71.4,Graduate,Yes,Yes,5.7,47.9,Private,No,51.1,48.1,44.8,48.0
+161,Male,18,7.5,84.8,Graduate,Yes,No,6.9,63.3,Public,No,54.5,46.9,47.6,49.7
+162,Female,15,6.3,97.5,Post Graduate,Yes,No,4.0,52.9,Private,No,59.9,59.5,56.9,58.8
+163,Female,16,1.2,73.5,Graduate,No,Yes,6.6,59.2,Public,No,14.7,26.1,20.3,20.4
+164,Female,16,2.2,,High School,No,Yes,5.2,58.8,Public,Yes,24.3,26.8,16.6,22.6
+165,Male,15,3.4,71.0,Post Graduate,Yes,No,8.0,57.8,Public,Yes,44.9,43.1,43.5,43.8
+166,Female,16,4.5,65.8,High School,No,Yes,7.6,46.2,Private,Yes,47.7,38.2,42.2,42.7
+167,Male,15,5.4,,Graduate,Yes,Yes,7.3,63.1,Public,Yes,31.5,42.8,37.0,37.1
+168,Male,16,3.2,63.3,No Education,Yes,No,8.3,56.6,Public,No,31.5,33.1,26.7,30.4
+169,Male,17,4.8,78.4,Graduate,No,No,,,Private,No,26.2,24.8,23.3,24.8
+170,Female,17,3.1,68.8,Post Graduate,No,No,8.5,95.8,Private,No,41.0,39.2,39.2,39.8
+171,Female,18,3.4,80.8,High School,Yes,No,7.7,81.3,Private,No,34.1,38.0,34.8,35.6
+172,Male,17,2.0,59.3,Post Graduate,Yes,No,6.6,59.4,Public,Yes,31.6,33.8,33.0,32.8
+173,Female,17,2.8,,High School,Yes,Yes,7.9,65.3,Public,No,31.9,30.2,34.4,32.2
+174,Male,17,2.1,88.0,Post Graduate,Yes,No,5.7,,Private,Yes,46.0,38.9,47.5,44.1
+175,Female,15,2.7,54.1,Graduate,No,Yes,6.0,90.4,Public,Yes,41.4,31.4,35.1,36.0
+176,Male,17,6.4,82.5,Post Graduate,Yes,No,6.2,93.5,Private,No,52.1,55.6,55.1,54.3
+177,Female,17,2.8,92.7,No Education,Yes,Yes,6.3,67.4,Public,Yes,31.9,35.3,38.0,35.1
+178,Male,18,9.2,63.5,Post Graduate,Yes,No,5.7,80.4,Public,No,45.8,56.4,57.2,53.1
+179,Female,17,5.4,,Graduate,Yes,Yes,8.0,67.6,Public,Yes,49.0,46.8,39.1,45.0
+180,Male,17,4.8,83.0,High School,Yes,Yes,6.5,44.9,Public,No,40.3,36.2,43.2,39.9
+181,Male,16,3.0,69.5,Post Graduate,Yes,Yes,7.2,58.8,Public,No,39.9,46.5,43.4,43.3
+182,Male,18,5.8,77.3,High School,No,Yes,6.2,,Public,Yes,33.7,33.4,35.9,34.3
+183,Female,18,3.5,84.7,Post Graduate,No,No,5.0,58.2,Private,No,32.7,42.6,46.6,40.6
+184,Female,18,4.7,78.9,High School,Yes,No,7.1,61.7,Public,Yes,28.2,32.2,37.8,32.7
+185,Male,18,9.1,84.5,Graduate,No,Yes,4.9,63.6,Private,No,48.7,54.0,52.3,51.7
+186,Female,18,4.3,67.0,Graduate,No,Yes,6.7,63.8,Private,No,27.8,31.3,25.6,28.2
+187,Female,18,6.6,,No Education,No,Yes,5.4,65.8,Public,No,25.7,32.0,34.3,30.7
+188,Female,15,3.2,61.0,High School,Yes,Yes,8.8,49.1,Public,No,31.2,35.6,30.5,32.4
+189,Female,17,4.4,76.7,No Education,Yes,Yes,,54.2,Private,Yes,23.5,31.6,28.6,27.9
+190,Male,18,7.7,67.2,Graduate,Yes,No,6.9,45.7,Private,No,67.3,62.6,56.9,62.3
+191,Male,17,3.4,69.2,High School,Yes,Yes,8.1,79.7,Private,No,26.3,22.1,26.7,25.0
+192,Female,17,7.8,92.8,Graduate,Yes,Yes,6.0,33.4,Private,No,59.8,67.7,67.7,65.1
+193,Female,15,5.8,91.1,High School,Yes,Yes,7.3,82.3,Private,Yes,53.6,50.3,52.6,52.2
+194,Female,18,3.5,85.3,High School,Yes,Yes,7.0,85.8,Public,No,37.2,31.5,37.4,35.4
+195,Male,16,5.6,64.9,Graduate,No,Yes,7.1,60.5,Public,No,34.4,30.9,27.1,30.8
+196,Male,15,6.3,74.2,No Education,Yes,No,8.1,26.0,Private,Yes,42.8,47.6,48.5,46.3
+197,Female,16,5.6,92.6,Post Graduate,Yes,Yes,7.5,59.6,Public,No,49.3,48.4,45.2,47.6
+198,Female,17,,79.7,Post Graduate,No,Yes,7.1,64.0,Private,Yes,25.8,30.2,33.4,29.8
+199,Female,17,3.2,100.0,Graduate,No,Yes,5.1,49.8,Public,No,36.0,45.5,47.5,43.0
+200,Female,15,4.1,82.7,Graduate,No,Yes,5.8,57.3,Public,No,44.1,36.0,43.5,41.2
+201,Female,15,4.4,80.3,Post Graduate,No,Yes,6.7,88.0,Private,No,46.5,49.6,39.5,45.2
+202,Male,16,,74.3,High School,Yes,No,6.9,75.0,Public,No,43.9,32.3,34.9,37.0
+203,Male,18,4.8,79.6,No Education,No,No,5.7,51.1,Public,No,30.7,41.5,37.3,36.5
+204,Female,16,2.1,76.2,High School,Yes,No,9.2,41.0,Public,Yes,30.1,25.3,23.3,26.2
+205,Female,15,5.2,86.5,Graduate,Yes,Yes,8.3,60.1,Private,Yes,27.4,32.7,28.8,29.6
+206,Male,16,5.6,89.5,No Education,Yes,Yes,7.4,61.8,Public,No,52.8,45.6,50.2,49.5
+207,Male,15,5.5,68.6,Graduate,Yes,Yes,6.9,72.4,Private,Yes,37.4,48.5,49.3,45.1
+208,Female,16,6.4,62.0,Post Graduate,Yes,No,6.6,57.0,Public,Yes,55.6,62.5,62.2,60.1
+209,Male,15,6.0,56.0,Post Graduate,Yes,No,5.8,72.7,Private,No,33.4,39.4,33.4,35.4
+210,Male,15,5.3,84.1,Graduate,No,Yes,,94.0,Private,Yes,20.4,24.8,21.2,22.1
+211,Female,15,,64.8,No Education,Yes,Yes,7.1,77.2,Public,Yes,33.0,33.3,37.7,34.7
+212,Female,18,1.5,52.2,Post Graduate,Yes,Yes,5.6,64.3,Public,No,30.4,26.4,28.9,28.6
+213,Female,16,5.3,82.7,Graduate,No,No,7.1,62.3,Public,Yes,34.1,32.8,33.7,33.5
+214,Male,16,4.9,100.0,High School,Yes,No,6.6,59.6,Private,No,37.2,44.6,39.3,40.4
+215,Female,16,5.0,77.9,No Education,Yes,Yes,4.9,82.7,Public,No,67.1,60.5,57.6,61.7
+216,Male,15,2.2,88.1,Post Graduate,Yes,Yes,5.9,55.6,Private,No,36.6,38.8,33.0,36.1
+217,Male,16,2.6,79.0,Graduate,Yes,No,6.4,65.7,Public,Yes,34.2,41.9,37.1,37.7
+218,Female,16,6.4,76.8,Post Graduate,Yes,Yes,8.7,65.8,Public,No,54.6,57.6,51.6,54.6
+219,Female,15,4.4,89.0,Post Graduate,No,Yes,7.4,57.5,Public,No,22.3,20.3,32.1,24.9
+220,Female,17,5.7,74.5,Graduate,Yes,Yes,5.5,44.4,Public,No,47.5,45.3,42.7,45.2
+221,Female,15,4.6,81.2,Graduate,Yes,No,7.3,69.8,Public,Yes,49.7,37.4,41.9,43.0
+222,Female,16,4.6,81.9,Graduate,No,Yes,5.3,64.1,Private,No,35.3,24.9,39.8,33.3
+223,Male,15,6.2,70.0,High School,Yes,Yes,7.9,72.5,Private,No,32.0,42.7,42.5,39.1
+224,Male,17,3.6,89.9,Graduate,Yes,No,6.3,57.0,Public,No,36.2,43.3,43.5,41.0
+225,Male,15,4.7,75.9,Graduate,Yes,Yes,6.7,83.3,Private,No,45.5,39.8,35.2,40.2
+226,Male,16,3.7,68.9,Graduate,Yes,Yes,8.1,51.8,Private,No,22.9,25.3,27.5,25.2
+227,Female,17,3.7,84.4,Post Graduate,Yes,Yes,5.5,90.7,Private,No,47.0,61.0,43.9,50.6
+228,Male,18,3.9,67.2,Graduate,Yes,Yes,5.4,38.8,Public,Yes,25.5,22.7,18.2,22.1
+229,Female,16,4.9,78.3,Graduate,Yes,No,6.2,,Public,No,28.7,29.3,24.8,27.6
+230,Female,17,3.6,77.9,Graduate,No,Yes,7.8,72.1,Public,Yes,41.0,39.0,38.2,39.4
+231,Female,17,6.8,,Graduate,Yes,Yes,5.3,53.1,Private,No,56.4,60.6,57.5,58.2
+232,Female,18,2.9,83.7,Graduate,Yes,No,,71.4,Public,Yes,35.0,37.6,31.8,34.8
+233,Female,15,4.2,77.7,High School,Yes,No,6.3,84.2,Public,No,26.5,22.5,27.0,25.3
+234,Female,15,3.7,87.8,Graduate,Yes,No,7.4,31.7,Public,Yes,38.7,45.2,41.4,41.8
+235,Male,16,7.1,94.7,High School,Yes,Yes,8.0,72.5,Public,No,47.2,55.2,41.7,48.0
+236,Female,18,4.9,84.7,High School,Yes,Yes,6.3,27.6,Private,No,30.9,28.0,30.4,29.8
+237,Male,15,6.4,78.1,Graduate,No,No,6.4,50.5,Public,Yes,39.8,33.2,38.2,37.1
+238,Male,18,1.8,62.3,Graduate,Yes,Yes,,89.4,Public,Yes,27.6,32.4,36.3,32.1
+239,Female,15,5.0,65.2,Post Graduate,Yes,No,4.9,56.3,Private,Yes,54.4,71.0,58.9,61.4
+240,Male,17,6.1,74.3,Graduate,Yes,No,6.4,47.4,Private,No,37.8,43.7,43.8,41.8
+241,Female,15,4.6,70.7,Graduate,Yes,No,7.0,62.0,Private,No,43.1,50.8,44.7,46.2
+242,Female,18,6.4,75.8,Graduate,Yes,Yes,7.2,96.0,Private,No,38.6,40.2,38.3,39.0
+243,Female,17,3.6,78.7,Graduate,Yes,Yes,6.3,37.5,Private,Yes,40.1,47.0,40.2,42.4
+244,Male,17,7.0,84.4,No Education,Yes,No,6.8,,Public,No,42.1,39.8,44.6,42.2
+245,Male,17,8.6,77.2,High School,Yes,Yes,4.3,87.5,Public,No,52.2,47.7,60.9,53.6
+246,Female,18,3.8,83.8,High School,No,Yes,6.1,92.9,Private,No,24.8,30.8,29.9,28.5
+247,Male,16,3.7,,Graduate,No,No,7.3,63.4,Private,No,34.4,40.7,52.2,42.4
+248,Female,16,7.1,54.3,No Education,No,No,5.8,46.4,Private,Yes,30.4,34.2,30.4,31.7
+249,Female,16,7.3,66.7,High School,No,Yes,6.9,96.4,Public,Yes,46.6,44.5,52.4,47.8
+250,Female,18,3.6,76.3,High School,Yes,Yes,7.2,88.9,Public,Yes,33.7,32.0,31.6,32.4
+251,Male,17,3.7,63.5,Post Graduate,No,Yes,6.5,75.2,Public,Yes,35.4,36.4,40.2,37.3
+252,Male,16,4.0,85.2,High School,Yes,No,7.0,52.8,Public,Yes,29.8,38.9,36.8,35.2
+253,Female,18,,96.4,Graduate,No,No,5.8,64.3,Public,Yes,30.2,22.3,24.2,25.6
+254,Male,16,2.8,92.6,High School,No,Yes,6.6,62.6,Private,No,26.7,32.4,31.9,30.3
+255,Male,15,2.7,75.4,Graduate,Yes,Yes,7.4,70.0,Public,No,31.5,30.1,29.5,30.4
+256,Female,16,3.1,95.9,High School,No,No,7.0,,Public,No,29.8,25.2,25.2,26.7
+257,Female,16,4.4,79.8,High School,Yes,Yes,6.2,78.2,Public,No,32.8,37.0,34.4,34.7
+258,Female,17,4.9,74.0,Graduate,Yes,Yes,7.0,48.8,Private,No,48.0,49.1,50.4,49.2
+259,Female,18,7.3,70.6,No Education,Yes,No,7.5,85.6,Public,Yes,58.3,58.5,62.5,59.8
+260,Male,17,2.7,74.4,No Education,Yes,Yes,4.8,69.7,Public,No,11.3,27.4,21.4,20.0
+261,Female,17,6.3,73.3,High School,Yes,No,8.0,,Public,Yes,48.9,52.7,57.9,53.2
+262,Female,17,4.1,80.0,No Education,Yes,Yes,6.5,87.0,Public,No,22.7,25.5,19.5,22.6
+263,Male,17,4.4,79.9,High School,No,Yes,7.2,48.3,Private,Yes,38.8,35.1,36.7,36.9
+264,Female,17,,78.0,High School,Yes,No,8.0,64.5,Private,No,51.1,50.4,45.0,48.8
+265,Female,16,2.5,83.2,Post Graduate,No,Yes,5.4,57.0,Public,Yes,16.1,22.7,20.5,19.8
+266,Female,17,,92.3,Graduate,No,No,6.1,41.5,Public,Yes,42.7,45.5,46.6,44.9
+267,Female,17,4.8,89.4,Graduate,No,No,6.5,70.2,Private,No,32.6,29.6,39.0,33.7
+268,Female,18,5.4,60.2,High School,No,Yes,6.0,100.0,Public,Yes,22.3,34.1,25.5,27.3
+269,Male,15,5.0,47.4,Post Graduate,Yes,Yes,8.5,37.4,Public,No,48.4,47.2,51.7,49.1
+270,Male,16,8.9,89.2,High School,No,Yes,5.9,64.5,Public,No,51.0,46.8,47.9,48.6
+271,Female,16,3.4,61.6,No Education,No,Yes,6.2,74.6,Private,No,14.7,23.4,17.3,18.5
+272,Female,16,3.5,75.3,Graduate,Yes,Yes,7.0,66.8,Public,No,37.3,32.4,35.7,35.1
+273,Female,17,3.4,64.0,High School,Yes,Yes,5.6,63.3,Public,No,23.3,27.8,32.2,27.8
+274,Female,17,3.5,56.4,High School,Yes,Yes,6.4,45.5,Private,Yes,23.9,20.2,27.1,23.7
+275,Female,17,3.4,84.5,Graduate,Yes,No,7.1,68.5,Public,No,44.1,50.6,46.9,47.2
+276,Female,18,6.6,87.1,Post Graduate,Yes,No,6.5,53.6,Public,No,69.1,60.5,62.0,63.9
+277,Female,15,7.1,71.1,Graduate,Yes,No,6.7,32.2,Private,No,30.9,46.0,31.6,36.2
+278,Female,17,3.5,46.9,Graduate,Yes,Yes,6.3,82.9,Public,Yes,15.2,24.3,32.3,23.9
+279,Female,15,3.0,71.4,Post Graduate,Yes,Yes,,79.4,Private,No,21.9,30.2,28.2,26.8
+280,Female,18,5.3,,High School,No,No,7.1,,Public,No,38.5,38.1,36.5,37.7
+281,Female,16,3.5,,High School,Yes,Yes,8.6,68.4,Public,No,23.1,23.0,32.1,26.1
+282,Male,17,5.6,80.2,High School,Yes,Yes,6.8,81.1,Public,No,62.5,60.8,57.5,60.3
+283,Male,15,4.9,77.8,Graduate,Yes,No,7.0,68.4,Public,Yes,49.6,53.2,44.3,49.0
+284,Male,15,1.8,85.0,Graduate,Yes,No,7.5,78.6,Public,Yes,39.4,31.6,37.5,36.2
+285,Female,17,7.3,79.4,Post Graduate,No,Yes,5.5,60.5,Private,No,59.5,58.6,54.8,57.6
+286,Male,16,7.7,66.3,Graduate,Yes,Yes,8.5,84.7,Public,No,74.4,64.8,70.0,69.7
+287,Male,16,3.4,92.4,Graduate,Yes,No,7.0,69.8,Public,No,37.2,38.5,54.9,43.5
+288,Female,16,3.8,,High School,Yes,No,8.4,67.9,Public,Yes,37.2,41.6,36.5,38.4
+289,Male,18,,77.7,Post Graduate,Yes,No,,45.9,Private,No,38.9,48.8,41.0,42.9
+290,Female,15,5.1,66.8,Post Graduate,No,No,8.6,69.3,Public,No,37.1,38.0,33.5,36.2
+291,Male,15,5.7,72.7,Post Graduate,No,No,7.6,52.5,Public,No,39.8,47.0,44.6,43.8
+292,Male,15,8.1,67.4,No Education,Yes,Yes,7.4,55.4,Public,No,42.3,48.6,47.2,46.0
+293,Female,18,4.2,75.9,Graduate,Yes,Yes,7.0,52.8,Public,Yes,35.7,36.0,34.3,35.3
+294,Male,15,3.1,98.5,No Education,Yes,No,6.6,49.0,Public,No,18.1,17.6,26.5,20.7
+295,Male,18,2.0,61.5,High School,Yes,No,8.0,96.9,Private,Yes,20.8,21.5,28.3,23.5
+296,Female,16,3.2,58.6,No Education,Yes,No,6.9,85.0,Public,No,12.5,19.6,28.1,20.1
+297,Female,17,4.4,,Graduate,Yes,Yes,4.8,93.8,Public,Yes,55.1,47.6,48.3,50.3
+298,Male,15,7.7,75.5,Graduate,Yes,Yes,5.7,46.7,Public,No,51.7,52.4,45.0,49.7
+299,Female,15,3.6,70.0,High School,Yes,No,6.6,66.1,Private,Yes,30.4,32.3,30.6,31.1
+300,Male,16,4.9,90.5,High School,No,No,7.1,45.6,Public,No,38.4,31.0,29.8,33.1
+301,Male,17,4.5,70.7,Graduate,No,No,6.7,54.6,Public,No,51.3,57.0,57.5,55.3
+302,Female,18,6.6,99.9,High School,Yes,No,,51.2,Public,No,54.9,63.4,60.8,59.7
+303,Female,17,9.0,86.1,High School,No,No,4.8,83.6,Public,Yes,39.6,48.5,50.5,46.2
+304,Female,16,3.5,72.1,Graduate,Yes,No,6.9,59.1,Public,Yes,38.3,37.0,44.7,40.0
+305,Female,16,3.6,100.0,Graduate,Yes,No,5.0,81.0,Public,Yes,41.5,46.4,39.6,42.5
+306,Female,17,6.4,70.7,No Education,No,No,7.6,74.1,Public,No,32.1,26.4,33.8,30.8
+307,Female,18,5.7,86.9,No Education,No,No,6.7,99.6,Public,Yes,42.5,25.2,32.1,33.3
+308,Male,18,7.8,81.6,High School,No,Yes,7.2,42.8,Public,No,37.7,52.5,50.2,46.8
+309,Female,15,5.6,93.6,Post Graduate,Yes,Yes,5.9,83.9,Public,No,51.2,46.9,52.8,50.3
+310,Male,18,3.9,96.7,Graduate,Yes,No,8.1,82.2,Public,No,46.7,52.8,50.8,50.1
+311,Male,17,5.6,78.4,Graduate,No,Yes,,50.4,Private,No,44.8,40.1,57.0,47.3
+312,Male,16,,69.0,High School,Yes,Yes,7.4,80.1,Private,No,49.4,60.1,47.7,52.4
+313,Male,15,6.0,83.5,Graduate,Yes,Yes,6.7,70.0,Private,Yes,39.5,48.7,43.0,43.7
+314,Female,15,,69.9,No Education,Yes,Yes,7.4,61.6,Private,No,49.0,36.6,41.1,42.2
+315,Female,16,6.4,100.0,Graduate,Yes,Yes,6.1,52.6,Private,No,63.1,54.9,61.6,59.9
+316,Female,18,6.6,79.6,Post Graduate,Yes,Yes,7.7,54.2,Private,Yes,53.9,62.5,59.9,58.8
+317,Male,16,7.0,73.6,Graduate,Yes,No,8.4,95.7,Public,No,50.5,42.8,44.6,46.0
+318,Male,18,5.7,80.2,Post Graduate,No,Yes,7.9,65.0,Private,No,51.0,57.2,53.9,54.0
+319,Male,16,4.2,61.8,Graduate,Yes,Yes,6.1,76.7,Public,No,29.5,29.1,40.5,33.0
+320,Male,17,4.8,66.3,High School,Yes,Yes,7.2,,Public,Yes,30.4,41.9,45.3,39.2
+321,Female,18,6.7,92.4,Post Graduate,Yes,No,5.5,53.3,Private,No,48.2,52.8,44.9,48.6
+322,Female,17,3.0,70.1,No Education,Yes,Yes,7.4,81.2,Public,Yes,20.8,24.9,21.0,22.2
+323,Female,15,5.2,,Graduate,Yes,No,7.3,44.8,Public,Yes,38.7,34.6,32.8,35.4
+324,Male,16,3.8,84.4,High School,Yes,No,4.9,58.8,Private,No,33.0,28.1,30.5,30.5
+325,Female,15,4.6,92.2,No Education,No,No,5.6,65.5,Public,No,18.2,29.0,22.6,23.3
+326,Female,15,6.8,86.6,Graduate,Yes,Yes,6.5,,Public,No,56.2,58.2,56.4,56.9
+327,Female,15,4.8,90.0,High School,No,No,6.5,62.3,Private,Yes,24.8,19.3,25.1,23.1
+328,Female,15,4.6,68.9,Graduate,Yes,Yes,5.6,70.9,Private,No,32.6,35.3,24.8,30.9
+329,Male,16,2.1,60.9,Graduate,Yes,No,7.2,75.4,Public,No,20.6,32.2,34.6,29.1
+330,Male,15,5.8,96.0,No Education,Yes,No,7.1,76.0,Public,Yes,54.5,59.3,48.2,54.0
+331,Male,16,5.7,74.1,High School,Yes,Yes,6.6,50.2,Public,No,30.1,37.8,38.4,35.4
+332,Female,16,,75.0,Graduate,No,Yes,6.0,60.7,Private,Yes,44.4,38.3,44.2,42.3
+333,Male,17,3.9,,High School,Yes,Yes,7.8,82.9,Public,No,30.5,29.2,27.3,29.0
+334,Male,18,4.9,84.7,Graduate,Yes,No,8.5,78.4,Public,No,40.7,46.5,43.3,43.5
+335,Male,18,4.9,83.5,Graduate,No,Yes,,44.4,Public,Yes,41.8,44.5,49.2,45.2
+336,Male,16,,100.0,Post Graduate,No,No,6.2,70.3,Public,Yes,68.3,68.7,74.6,70.5
+337,Female,17,4.3,70.3,Graduate,No,Yes,7.3,,Private,Yes,23.3,32.2,31.6,29.0
+338,Female,16,5.0,89.1,Graduate,Yes,No,6.4,65.7,Public,Yes,44.3,28.9,40.8,38.0
+339,Male,16,,78.7,Graduate,No,No,6.7,93.5,Private,No,41.0,50.7,41.3,44.3
+340,Male,16,4.8,81.2,High School,Yes,No,7.5,50.8,Public,No,35.9,28.7,32.0,32.2
+341,Female,17,,96.3,High School,Yes,No,4.9,52.5,Private,Yes,31.9,38.6,37.3,35.9
+342,Male,18,,84.1,Graduate,Yes,Yes,8.1,76.5,Private,Yes,53.6,57.9,56.8,56.1
+343,Male,17,6.4,84.5,Graduate,Yes,Yes,6.9,41.9,Public,No,52.7,63.6,50.3,55.5
+344,Male,15,2.7,90.9,Graduate,Yes,No,6.4,55.5,Public,No,40.5,39.8,38.5,39.6
+345,Male,17,4.7,73.6,Post Graduate,Yes,Yes,6.7,73.9,Public,Yes,33.8,38.4,39.8,37.3
+346,Female,17,3.2,67.9,Post Graduate,No,Yes,6.8,55.5,Private,Yes,39.3,34.5,34.3,36.0
+347,Female,17,6.7,65.5,Post Graduate,Yes,Yes,5.1,61.5,Public,No,58.1,65.2,55.9,59.7
+348,Male,17,1.8,54.4,Graduate,Yes,Yes,8.3,76.2,Private,Yes,11.8,16.2,28.6,18.9
+349,Male,18,3.5,100.0,High School,Yes,Yes,6.8,71.3,Private,Yes,46.7,54.1,52.5,51.1
+350,Female,15,5.2,64.8,Graduate,No,No,7.2,69.0,Private,No,39.0,42.5,45.0,42.2
+351,Female,18,,,High School,Yes,Yes,7.8,59.9,Private,No,60.2,67.0,56.4,61.2
+352,Female,18,4.4,,Graduate,Yes,No,5.8,70.6,Public,No,35.0,43.6,38.6,39.1
+353,Female,17,3.5,81.7,Graduate,No,Yes,7.3,63.1,Public,No,40.5,40.5,42.1,41.0
+354,Male,16,7.9,87.8,Graduate,No,No,6.5,71.9,Public,No,63.4,66.1,65.4,65.0
+355,Male,16,1.9,88.3,High School,Yes,Yes,7.6,57.5,Private,Yes,31.3,27.2,31.0,29.8
+356,Female,18,0.5,71.0,High School,Yes,No,4.7,62.3,Private,Yes,23.3,18.6,23.0,21.6
+357,Male,18,5.3,76.0,Graduate,No,No,,50.2,Private,Yes,42.1,42.0,35.0,39.7
+358,Female,17,3.6,81.4,High School,Yes,Yes,6.2,64.5,Public,Yes,36.4,39.1,43.5,39.7
+359,Female,18,2.7,75.0,Post Graduate,Yes,No,7.2,52.8,Public,No,21.7,32.3,32.0,28.7
+360,Female,17,5.8,97.3,High School,No,No,7.3,48.3,Private,No,30.4,42.9,38.4,37.2
+361,Male,16,4.9,83.9,High School,Yes,No,6.1,68.9,Public,No,43.4,44.9,45.3,44.5
+362,Female,16,,86.8,No Education,Yes,No,,68.2,Public,No,16.9,18.8,10.5,15.4
+363,Male,15,2.2,86.0,Graduate,Yes,Yes,6.7,76.7,Private,Yes,47.2,49.1,41.7,46.0
+364,Female,16,6.1,92.1,Graduate,Yes,No,5.9,58.5,Public,Yes,60.7,55.2,58.1,58.0
+365,Female,18,5.7,80.2,High School,Yes,Yes,7.6,71.1,Public,No,40.5,45.7,38.6,41.6
+366,Male,16,4.3,62.4,No Education,No,Yes,6.4,73.3,Public,No,26.2,33.1,29.0,29.4
+367,Female,17,7.8,82.8,Graduate,Yes,No,,71.7,Public,No,55.5,62.7,51.4,56.5
+368,Female,16,2.6,70.2,High School,Yes,Yes,6.4,52.6,Private,No,40.0,29.8,34.0,34.6
+369,Male,15,1.8,71.7,Graduate,Yes,No,5.8,67.2,Public,No,35.6,40.9,36.9,37.8
+370,Male,16,3.3,85.0,Graduate,Yes,No,5.2,70.5,Public,No,24.6,35.8,28.0,29.5
+371,Male,17,4.4,92.9,High School,No,No,5.6,65.1,Public,Yes,37.7,37.4,34.1,36.4
+372,Male,17,4.9,78.3,High School,Yes,No,6.9,33.7,Private,No,31.8,40.1,35.5,35.8
+373,Male,18,4.1,81.7,Post Graduate,Yes,Yes,8.1,67.4,Public,No,40.3,46.5,40.0,42.3
+374,Female,16,5.1,98.4,Graduate,Yes,Yes,7.1,98.2,Public,Yes,42.0,40.5,49.3,43.9
+375,Male,17,2.2,80.9,Graduate,Yes,Yes,6.2,59.6,Public,No,47.9,48.1,48.2,48.1
+376,Male,15,7.1,100.0,High School,Yes,Yes,7.3,54.1,Public,Yes,62.2,68.6,60.7,63.8
+377,Female,18,4.4,84.8,Graduate,No,Yes,6.3,70.6,Public,No,23.3,29.7,28.0,27.0
+378,Male,15,6.5,56.9,No Education,No,Yes,6.1,69.7,Private,Yes,34.6,32.5,25.0,30.7
+379,Female,16,5.1,87.0,Graduate,Yes,No,5.6,82.9,Private,No,43.2,36.9,33.6,37.9
+380,Male,16,5.3,82.6,Post Graduate,Yes,No,5.0,46.1,Public,Yes,48.9,52.0,58.3,53.1
+381,Male,16,5.5,93.5,High School,No,Yes,6.4,76.0,Public,No,37.8,42.6,40.0,40.1
+382,Female,18,5.3,86.1,No Education,No,No,7.0,73.9,Private,Yes,49.0,50.5,53.3,50.9
+383,Female,17,5.7,76.3,No Education,Yes,Yes,6.7,62.9,Public,Yes,57.6,48.2,45.7,50.5
+384,Female,18,6.9,63.3,High School,Yes,Yes,6.4,70.1,Private,No,44.1,54.9,48.2,49.1
+385,Female,15,4.9,75.5,High School,Yes,No,5.9,,Public,No,43.4,42.7,33.5,39.9
+386,Female,18,5.8,67.8,No Education,Yes,No,7.4,,Private,Yes,36.9,35.4,26.9,33.1
+387,Male,15,4.3,,Graduate,No,No,5.5,47.9,Private,Yes,30.4,35.0,29.8,31.7
+388,Male,18,7.1,85.1,Graduate,Yes,Yes,7.6,,Private,No,60.3,66.1,66.7,64.4
+389,Female,17,3.3,98.0,High School,Yes,No,5.8,64.0,Private,No,28.8,34.2,32.1,31.7
+390,Female,15,7.7,82.7,Post Graduate,No,No,,,Public,No,58.3,69.6,60.8,62.9
+391,Female,16,4.4,63.6,High School,No,No,5.3,66.1,Private,Yes,26.0,24.9,25.6,25.5
+392,Male,16,1.9,83.3,Post Graduate,No,No,6.3,62.7,Public,No,24.4,31.6,17.1,24.4
+393,Male,18,4.7,92.4,High School,No,No,7.8,82.9,Public,Yes,41.7,38.4,36.6,38.9
+394,Female,16,3.3,70.7,Post Graduate,Yes,No,7.3,63.7,Private,Yes,39.3,39.5,46.4,41.7
+395,Male,15,6.0,76.4,Graduate,Yes,No,,48.2,Private,No,31.0,48.3,37.0,38.8
+396,Female,16,3.3,78.2,Post Graduate,Yes,No,7.3,59.1,Private,No,37.4,40.0,41.8,39.7
+397,Female,17,3.7,68.6,Post Graduate,Yes,No,5.7,67.7,Public,No,32.8,36.7,28.9,32.8
+398,Male,17,1.1,85.8,High School,Yes,Yes,6.5,83.4,Private,Yes,34.6,40.2,32.4,35.7
+399,Female,18,,76.5,Post Graduate,Yes,No,6.0,74.0,Private,No,36.8,41.8,41.5,40.0
+400,Female,15,0.5,83.0,High School,Yes,Yes,8.1,52.2,Public,No,30.2,29.3,28.0,29.2
+401,Male,17,1.6,67.4,High School,No,Yes,5.6,100.0,Public,No,33.9,32.2,27.4,31.2
+402,Female,17,5.9,72.8,High School,Yes,No,7.7,69.0,Public,Yes,44.0,44.1,41.8,43.3
+403,Female,15,5.9,86.7,Graduate,No,No,7.7,84.1,Public,Yes,36.3,42.9,39.7,39.6
+404,Female,16,5.3,73.5,High School,Yes,No,8.6,62.7,Private,Yes,21.0,16.9,15.0,17.6
+405,Male,16,2.8,98.7,Graduate,Yes,Yes,6.4,73.0,Private,No,24.6,29.3,19.2,24.4
+406,Female,18,4.4,73.2,Graduate,Yes,Yes,7.5,77.6,Private,Yes,38.3,29.6,33.6,33.8
+407,Male,16,4.5,80.7,Graduate,Yes,Yes,9.1,,Private,No,50.5,60.1,56.6,55.7
+408,Male,15,2.4,,Post Graduate,Yes,No,6.2,80.9,Public,Yes,41.9,46.5,39.4,42.6
+409,Female,17,7.2,61.0,Graduate,No,No,5.3,,Private,No,43.4,48.7,45.8,46.0
+410,Male,16,6.1,56.9,High School,Yes,No,4.9,60.3,Public,Yes,27.4,25.9,24.1,25.8
+411,Male,18,4.1,59.7,High School,Yes,No,7.5,56.4,Private,No,29.8,18.0,23.8,23.9
+412,Female,16,4.5,93.2,High School,Yes,No,4.9,70.0,Public,No,47.9,54.1,38.5,46.8
+413,Female,15,4.9,,No Education,Yes,No,6.4,79.0,Private,Yes,40.6,50.2,37.7,42.8
+414,Female,18,0.8,100.0,High School,No,Yes,7.2,61.7,Public,No,20.2,23.6,19.7,21.2
+415,Female,16,4.1,71.2,High School,No,Yes,7.0,81.0,Public,No,18.8,39.1,34.6,30.8
+416,Male,18,3.3,80.2,Post Graduate,Yes,No,7.2,86.8,Private,No,56.7,52.7,64.0,57.8
+417,Male,15,2.7,96.5,Graduate,Yes,No,7.0,51.3,Public,No,35.2,33.3,34.6,34.4
+418,Male,17,4.0,100.0,High School,Yes,Yes,8.1,52.4,Private,Yes,43.7,43.7,36.9,41.4
+419,Female,15,7.7,100.0,Graduate,No,No,5.8,62.9,Public,Yes,55.6,62.9,61.8,60.1
+420,Female,15,5.7,92.5,High School,Yes,Yes,6.1,69.6,Private,Yes,64.0,66.3,72.2,67.5
+421,Female,15,3.5,90.3,Graduate,No,Yes,6.0,57.1,Public,Yes,17.9,24.2,21.4,21.2
+422,Female,15,5.5,85.1,Graduate,No,No,7.6,85.3,Public,Yes,54.6,52.7,46.9,51.4
+423,Male,17,7.0,,Graduate,Yes,No,7.7,71.4,Public,Yes,53.5,53.4,60.2,55.7
+424,Female,17,6.2,71.4,Graduate,No,No,7.3,65.6,Public,No,55.7,49.4,48.9,51.3
+425,Male,18,4.6,68.2,Post Graduate,Yes,Yes,8.0,,Public,No,39.6,42.9,34.4,39.0
+426,Female,16,3.3,78.0,Post Graduate,Yes,Yes,5.6,45.3,Public,Yes,35.6,44.6,44.5,41.6
+427,Male,17,5.8,76.0,Graduate,Yes,No,8.5,69.2,Public,Yes,53.1,60.4,58.8,57.4
+428,Female,17,5.2,72.6,Graduate,No,No,8.3,33.0,Public,No,58.2,58.6,67.2,61.3
+429,Male,16,6.1,86.4,Graduate,No,Yes,7.5,80.2,Public,Yes,42.5,57.4,54.2,51.4
+430,Male,17,5.6,89.5,High School,Yes,No,8.6,62.6,Private,Yes,46.8,36.1,38.4,40.4
+431,Male,15,6.4,79.1,High School,No,Yes,5.1,100.0,Public,Yes,41.7,35.7,44.1,40.5
+432,Female,15,3.5,95.7,No Education,Yes,No,6.3,99.6,Public,No,33.7,30.5,27.2,30.5
+433,Female,16,6.9,64.3,Graduate,No,No,6.1,62.3,Private,No,28.6,26.0,30.5,28.4
+434,Male,18,4.9,75.7,Graduate,Yes,Yes,7.5,63.4,Public,Yes,34.4,41.1,36.9,37.5
+435,Male,18,8.2,69.4,High School,Yes,Yes,5.7,79.9,Private,No,52.7,56.3,60.4,56.5
+436,Female,16,3.3,55.6,Post Graduate,Yes,No,,90.5,Public,No,27.8,28.9,23.5,26.7
+437,Male,16,7.6,77.0,Post Graduate,No,No,8.2,,Public,No,56.6,62.6,67.9,62.4
+438,Female,15,,76.5,Graduate,No,No,7.5,38.2,Public,No,27.4,35.7,43.0,35.4
+439,Female,18,3.3,96.2,Graduate,Yes,No,7.1,55.7,Private,No,31.9,39.6,29.1,33.5
+440,Male,17,3.6,85.6,Post Graduate,Yes,No,5.8,73.7,Private,Yes,43.8,43.1,51.2,46.0
+441,Male,15,3.9,65.7,High School,No,No,6.0,72.5,Public,Yes,40.4,41.5,47.0,43.0
+442,Female,16,5.3,100.0,Graduate,Yes,Yes,8.0,81.0,Public,No,58.4,58.5,59.2,58.7
+443,Male,18,5.4,92.7,High School,Yes,Yes,7.6,47.0,Private,No,45.7,45.3,40.5,43.8
+444,Male,17,3.5,85.0,Graduate,No,Yes,6.8,30.3,Public,No,31.4,36.5,29.9,32.6
+445,Female,17,4.5,75.3,High School,Yes,Yes,,77.9,Public,No,40.7,38.6,36.3,38.5
+446,Female,15,8.4,,Post Graduate,Yes,No,4.8,52.6,Private,No,47.7,53.9,53.5,51.7
+447,Female,18,7.6,73.5,Post Graduate,Yes,Yes,5.7,34.7,Private,Yes,46.3,54.5,51.5,50.8
+448,Female,18,5.3,91.1,High School,No,No,8.7,67.2,Public,No,56.1,55.7,54.5,55.4
+449,Male,16,4.6,100.0,Graduate,Yes,No,5.5,76.9,Private,No,40.7,48.4,37.1,42.1
+450,Male,18,4.7,96.5,Post Graduate,No,No,,63.2,Private,No,40.9,54.3,50.8,48.7
+451,Female,18,5.6,72.1,Graduate,Yes,Yes,7.8,58.1,Public,No,39.0,45.8,42.4,42.4
+452,Female,15,2.7,64.6,Post Graduate,Yes,Yes,5.5,,Public,No,24.1,31.0,28.1,27.7
+453,Male,18,4.0,79.7,Graduate,Yes,Yes,7.0,59.4,Public,Yes,43.2,51.4,39.0,44.5
+454,Female,17,1.5,56.8,High School,No,Yes,7.7,44.8,Private,No,16.9,20.9,24.2,20.7
+455,Male,15,5.2,81.9,High School,Yes,Yes,6.8,54.3,Private,Yes,55.8,60.8,65.6,60.7
+456,Female,15,5.7,76.2,High School,No,No,9.7,72.8,Public,No,21.8,27.3,27.0,25.4
+457,Male,16,3.6,72.4,Graduate,Yes,No,5.1,69.8,Private,No,31.6,32.3,25.7,29.9
+458,Male,18,7.3,58.9,High School,Yes,No,7.9,67.5,Public,No,39.1,35.0,39.9,38.0
+459,Male,16,2.3,84.2,Graduate,Yes,No,6.6,,Public,No,40.8,35.8,42.8,39.8
+460,Male,17,1.9,71.6,Graduate,No,Yes,,62.3,Public,No,21.0,21.2,19.4,20.5
+461,Male,15,4.9,64.0,Graduate,Yes,No,7.2,32.3,Public,No,34.6,23.6,31.5,29.9
+462,Female,15,6.4,43.5,Post Graduate,Yes,No,6.1,67.7,Private,Yes,54.0,58.0,60.5,57.5
+463,Female,15,7.5,77.7,Post Graduate,Yes,Yes,7.0,86.4,Public,No,70.6,68.0,71.2,69.9
+464,Female,17,3.7,99.3,Graduate,No,No,4.9,42.9,Private,No,41.8,39.2,46.8,42.6
+465,Female,17,6.4,97.9,Post Graduate,Yes,Yes,7.4,56.2,Public,No,63.2,60.3,62.3,61.9
+466,Male,16,4.4,72.5,Graduate,No,No,7.1,69.9,Public,Yes,67.6,57.4,59.4,61.5
+467,Male,16,4.2,70.8,Graduate,Yes,No,7.4,83.8,Private,No,48.8,59.5,51.3,53.2
+468,Female,16,6.1,83.6,Post Graduate,Yes,Yes,7.9,58.3,Public,No,46.1,43.1,51.6,46.9
+469,Male,18,5.7,66.0,High School,Yes,No,7.2,,Public,Yes,47.0,58.4,52.1,52.5
+470,Female,15,1.7,81.6,High School,No,No,6.9,35.5,Public,Yes,28.9,29.4,21.0,26.4
+471,Male,15,7.2,87.2,Post Graduate,No,No,5.9,66.6,Private,Yes,69.6,67.0,63.3,66.6
+472,Female,16,7.0,92.7,Graduate,Yes,Yes,6.1,95.6,Public,No,49.5,48.0,31.4,43.0
+473,Male,15,3.4,76.8,Post Graduate,Yes,No,,69.2,Public,No,44.3,48.9,32.1,41.8
+474,Female,16,5.2,75.6,Post Graduate,Yes,Yes,,64.7,Public,No,39.8,41.4,41.1,40.8
+475,Female,18,5.4,67.5,No Education,Yes,Yes,6.6,69.8,Public,Yes,44.0,48.2,47.1,46.4
+476,Female,18,,68.1,Post Graduate,Yes,Yes,6.8,64.8,Private,No,44.7,53.4,52.6,50.2
+477,Male,17,3.5,75.3,Graduate,Yes,No,5.9,52.8,Public,Yes,31.2,23.0,15.7,23.3
+478,Female,18,3.3,82.4,Graduate,Yes,No,8.0,77.3,Public,Yes,40.6,46.4,36.0,41.0
+479,Female,16,4.5,89.0,Graduate,Yes,No,7.5,68.4,Public,No,49.0,48.1,54.0,50.4
+480,Female,18,6.6,68.4,Post Graduate,Yes,No,8.7,65.3,Public,Yes,59.9,51.9,56.6,56.1
+481,Female,17,,,No Education,No,Yes,5.9,50.4,Private,No,39.7,52.1,45.5,45.8
+482,Female,15,3.8,74.7,Graduate,Yes,Yes,6.4,84.6,Public,Yes,43.6,47.7,47.2,46.2
+483,Male,16,5.9,77.7,Graduate,Yes,Yes,7.0,75.0,Private,No,47.8,49.3,51.3,49.5
+484,Female,15,0.5,69.0,Graduate,No,Yes,7.4,56.7,Public,No,23.2,25.4,18.0,22.2
+485,Female,17,6.6,48.9,Graduate,Yes,Yes,6.6,80.0,Public,No,31.9,35.6,32.1,33.2
+486,Female,17,1.4,88.6,High School,Yes,Yes,5.9,57.5,Private,Yes,12.7,28.0,15.4,18.7
+487,Male,17,3.8,86.8,High School,Yes,Yes,7.7,53.3,Public,Yes,42.9,44.8,43.0,43.6
+488,Male,15,2.5,74.6,High School,Yes,Yes,7.5,53.6,Private,No,30.3,31.2,30.5,30.7
+489,Female,15,2.2,78.8,Post Graduate,Yes,Yes,5.9,38.4,Private,Yes,36.3,49.1,40.2,41.9
+490,Female,15,6.6,84.2,High School,Yes,Yes,8.2,72.1,Public,No,46.2,46.8,49.0,47.3
+491,Male,15,3.7,59.2,High School,No,No,8.0,37.5,Public,No,14.8,22.2,19.8,18.9
+492,Female,17,5.1,71.7,Post Graduate,Yes,No,6.9,46.6,Private,Yes,57.1,62.1,63.6,60.9
+493,Male,17,4.4,87.5,No Education,Yes,No,6.9,33.9,Public,Yes,33.9,37.5,37.2,36.2
+494,Male,16,5.4,62.9,Post Graduate,Yes,Yes,7.4,63.7,Public,No,38.0,45.8,41.2,41.7
+495,Male,16,4.6,81.5,Graduate,Yes,Yes,5.9,62.7,Public,No,47.2,49.7,47.9,48.3
+496,Male,15,2.2,61.7,Post Graduate,Yes,No,6.8,60.1,Public,No,32.1,29.6,32.5,31.4
+497,Female,18,6.3,83.6,High School,No,Yes,4.6,49.4,Private,No,44.9,38.2,46.4,43.2
+498,Male,18,3.6,77.6,No Education,Yes,Yes,7.7,47.4,Public,No,46.9,49.8,43.7,46.8
+499,Female,17,1.7,,Graduate,Yes,Yes,5.2,72.0,Public,Yes,26.5,30.6,27.0,28.0
+500,Female,17,3.7,92.0,Post Graduate,Yes,Yes,8.3,56.7,Private,No,42.0,47.0,53.1,47.4
